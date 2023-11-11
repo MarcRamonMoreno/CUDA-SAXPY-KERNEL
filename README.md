@@ -16,22 +16,6 @@ For a Local Machine
     Run the Executable:
     Execute ./saxpy > 2000.txt to run the program and redirect the output to 2000.txt.
 
-For a Cluster Environment
-
-    Allocate Resources:
-    Use the salloc.sh script to allocate resources.
-    The script should include commands to request 40 CPUs and 1 GPU, but the specifics may vary based on your cluster's job scheduling system.
-
-    Load Modules:
-    Execute the moduls.sh file to load the necessary modules for gcc and cuda.
-    You might need to modify this file to load the correct versions of gcc and cuda modules available on your cluster.
-
-    Compilation:
-    Run the make command after setting up the environment with the moduls.sh script.
-    This will compile the code and create the saxpy executable.
-
-    Execute the Program:
-    After the compilation, execute the saxpy program by typing ./saxpy in the command line, and redirect the output to 2000.txt as before.
 
 Important Notes:
 
